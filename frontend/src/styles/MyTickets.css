@@ -1,0 +1,49 @@
+.ticket-list-container {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.ticket-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.ticket-table th,
+.ticket-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.ticket-table th {
+  background-color: #e7eff9;
+}
+
+.ticket-table tr:hover {
+  background-color: #f0f8ff;
+}
+
+.clickable {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}

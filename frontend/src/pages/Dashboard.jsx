@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/Dashboard.css'
-import StatCard from "../components/StatCard";
+import StatCard from "../components/user/StatCard";
 
 function Dashboard() {
     return ( 

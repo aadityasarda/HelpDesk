@@ -1,0 +1,69 @@
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 24px;
+  background-color: #e8f4f8;
+}
+
+.admin-stat-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.admin-bottom-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.chart-block {
+  flex: 2;
+  min-width: 300px;
+  height: 200px;
+  background-color: #69d2cc;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.chart-placeholder {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #133b4f;
+}
+
+.side-block {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.team-summary,
+.feedback-summary {
+  background-color: #69d2cc;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  color: #000;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.team-summary p,
+.feedback-summary p {
+  margin: 8px 0;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.star-rating {
+  font-size: 1.4rem;
+  color: #f4c430;
+}

@@ -22,3 +22,14 @@
   margin-bottom: 20px;
   cursor: pointer;
 }
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 0;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}

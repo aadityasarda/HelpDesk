@@ -1,7 +1,7 @@
 import React from "react";
-import '../styles/Footer.css'
+import '../../styles/Footer.css'
 
-function Footer(){
+function Footer() {
     return (
         <div className="footer">
             <p>© 2025 Helpdesk System. All rights reserved.</p>
