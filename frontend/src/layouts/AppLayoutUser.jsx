@@ -5,16 +5,18 @@ import Footer from "../components/user/Footer";
 import { Outlet } from "react-router-dom";
 import '../styles/AppLayout.css'
 
-function AppLayout(){
+function AppLayout() {
     return (
-        <div className="layout">
-            <SideBar/>
-            <div className="main-area">
-                <TopBar/>
-                <div className="page-content">
-                    <Outlet/>
+        <div className="app-container">
+            <TopBar />
+            <div className="layout">
+                <SideBar />
+                <div className="main-area">
+                    <div className="page-content">
+                        <Outlet />
+                    </div>
+                    <Footer />
                 </div>
-                <Footer/>
             </div>
         </div>
     );

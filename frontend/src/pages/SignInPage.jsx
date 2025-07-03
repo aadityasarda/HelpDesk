@@ -32,7 +32,7 @@ function SignInPage() {
                 </form>
 
                 <div className="signin-links">
-                    <a href="#" className="forget">Forget Password</a>
+                    <a href="/forgotpassword" className="forget">Forget Password</a>
                     <Link to="/signup" className="signup">Sign Up</Link>
                 </div>
             </div>

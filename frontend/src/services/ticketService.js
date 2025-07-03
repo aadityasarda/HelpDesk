@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000/api/tickets";
+const API_BASE = "https://helpdesk-api-y210.onrender.com/api/tickets";
 
 export async function createTicket(data) {
   try {

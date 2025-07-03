@@ -1,9 +1,21 @@
 .topbar {
+  height: 90px;
   background-color: #2DCCC0;
-  color: white;
-  padding: 16px 24px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  font-family: var(--font-primary);
+  justify-content: space-between;
+  padding: 0 32px;
+  color: white;
+}
+
+.top-icons ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
 }

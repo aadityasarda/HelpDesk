@@ -1,18 +1,23 @@
-.dashboard-container {
-  display: flex;
+.user-dashboard {
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-.dashboard-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  min-height: 100vh;
+.dashboard-title {
+  font-family: 'Sanchez', serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
-.cards-container {
+.stat-cards {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  padding: 20px;
-  gap: 10px;
+  gap: 20px;
+  padding: 10px;
 }

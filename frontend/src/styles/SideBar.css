@@ -1,10 +1,9 @@
 .sidebar {
+  width: 250px;
+  height: 934px;
   background-color: #2DCCC0;
   color: white;
-  width: 200px;
   padding: 20px;
-  font-family: var(--font-primary);
-  height: 100vh;
   box-sizing: border-box;
 }
 

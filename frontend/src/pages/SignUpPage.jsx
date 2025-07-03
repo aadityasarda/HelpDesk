@@ -20,7 +20,7 @@ function SignUpPage() {
                 </form>
 
                 <div className="signup-links">
-                    <a href="#" className="forgot">Forgot password</a>
+                    <a href="/forgotpassword" className="forgot">Forgot password</a>
                     <Link to="/signin" className="signin">Sign In</Link>
                 </div>
             </div>

@@ -1,11 +1,17 @@
-.layout {
-  display: flex;
-  min-height: 100vh;
+.app-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: white;
   font-family: var(--font-primary);
 }
 
+.layout {
+  display: flex;
+  height: 934px;
+}
+
 .main-area {
-  flex: 1;
+  width: 1190px;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -14,6 +20,6 @@
 .page-content {
   flex: 1;
   padding: 20px;
-  background-color: #F4F6FB; 
-  min-height: 0; 
+  background-color: #F4F6FB;
+  max-width: 1190px;
 }

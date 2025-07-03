@@ -19,7 +19,6 @@ const AdminDashboard = () => {
         ))}
       </div>
 
-      {/* Chart + Team Summary + Feedback */}
       <div className="admin-bottom-grid">
         {/* Chart Block */}
         <div className="admin-box chart-block">

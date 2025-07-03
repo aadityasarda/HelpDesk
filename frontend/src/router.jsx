@@ -9,6 +9,7 @@ import MyTickets from "./pages/MyTickets";
 import UserProfile from "./pages/UserProfile";
 import TicketDetails from "./pages/TicketDetails";
 import AdminLayout from "./layouts/AppLayoutAdmin";
+import ForgotPassword from "./pages/ForgotPassword";
 import AdminDashboard from "./pages/AdminDashboard";
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
     {
         path: '/signup',
         element: <SignUpPage />
+    },
+    {
+        path: '/forgotpassword',
+        element: <ForgotPassword/>
     },
     {
         path: '/',

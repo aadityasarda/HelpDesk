@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 function SideBar() {
     return (
         <div className="sidebar">
-            <h2>HelpDesk</h2>
             <nav>
                 <ul>
                     <li><Link to="/dashboard">📊 Dashboard</Link></li>
@@ -16,5 +15,6 @@ function SideBar() {
         </div>
     );
 }
+
 
 export default SideBar;
